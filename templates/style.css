@@ -1,0 +1,139 @@
+.page-break	{ display: block; page-break-before: always; }
+span{
+	font-weight: bold;
+}
+
+img { 
+    max-width: none !important; 
+} 
+
+a[href*="google"]{
+	display: none;
+}
+
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+#GMapsID div div a div img{
+    display:none;
+}
+
+
+.sentiment-res{
+      font: 35px Helvetica,Arial,sans-serif;
+      text-align: center;
+      margin-top: 20px;
+}
+
+.sentiment-icon
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      /* font-size: 120%; */
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+
+
+.big-icon{
+      font-size: 90px;
+}
+
+.tcenter{
+      text-align: center;
+      margin-top: 40px;
+}
+
+.legendblock{
+	display: block;
+	width: 40px;
+	height: 20px;
+	-webkit-print-color-adjust: exact; 
+}
+
+.legendelement{
+	float: left;
+	margin-right: 5px;
+	width: 100px;
+	height: 30px;
+	overflow: hidden;
+	-webkit-print-color-adjust: exact; 
+}
+
+.floatcontainer{
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.legendtable{
+	border: 0px;
+	margin: 2px;
+	font: 8px Helvetica,Arial,sans-serif;
+}
+
+.legendtable th{
+	font: bold 10px Helvetica,Arial,sans-serif;
+}
+
+.legendtable .voice{
+	font: italic 8px Helvetica,Arial,sans-serif;	
+}
+
+.legendtable .color{
+	padding: 5px;
+}
+
+.c1{
+	background: #92F2DC;
+}
+
+.c2{
+	background: #F2EE92;
+}
+
+.c3{
+	background: #F292DC;
+}
+
+.c4{
+	background: rgba(100,255,100,1);
+}
+
+.editable{
+	background: #F2F2F2;
+	font: 12pt "Helvetica-Neue",Helvetica,Arial,sans-serif;
+	padding: 10pt;
+	margin-top: 10pt;
+	margin-bottom: 20pt;
+}
